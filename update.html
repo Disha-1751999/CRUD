@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+
+  <div id="cover-spin" class="d-none">
+    loading
+</div>
+    
+
+    
+
+    <div class="container  createProductFrom mt-5 mb-5"  >
+
+        <div class="row">
+            <div class="col">
+               
+                    <a href="./index.html"><button type="submit" class="btn submitButton  mb-5 w-25 d-block float-left">Go to Home Page</button></a>
+                  
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col  text-start ">
+                <!-- <form> -->
+                    <div class="mb-3">
+                      <label for="productName" class="form-label">Product Name</label>
+                      <input type="text" class="form-control" id="productName" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="productCode" class="form-label">Product Code</label>
+                        <input type="text" class="form-control" id="productCode" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="productImg" class="form-label">Product Image</label>
+                        <input type="url" class="form-control" id="productImg" >
+                      </div>
+                      <div class="mb-3">
+                        <label for="unitPrice" class="form-label">Unit Price</label>
+                        <input type="number" class="form-control" id="unitPrice" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="Qty" class="form-label">Quantity</label>
+                        <input type="number" class="form-control" id="Qty" required>
+                      </div>
+                      <div class="mb-3"></div>
+                        <label for="totalPrice" class="form-label">Total Price</label>
+                        <input type="number" class="form-control" id="totalPrice" >
+                      </div>
+                      <div>
+                        <button type="submit" class="btn submitButton mt-5 mb-3 w-25 d-block ms-auto me-auto" onclick="updateData()">Update</button>
+                      </div>
+                    
+                  <!-- </form> -->
+                
+            </div>
+        </div>
+
+        
+    </div>
+
+
+    
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script  src="./js/update.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- http://164.68.107.70:6060 -->

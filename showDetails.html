@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+
+    <div id="cover-spin" class="d-none">
+        loading
+    </div>
+   
+    
+
+    
+
+    <div class="container d-flex justify-content-center align-items-center  " style="height: 100vh; width: 100vw;" >
+           <div class=" createProductFrom mt-1">
+            <div class="row  ">
+                <div class="col"> 
+                        <a href="./index.html"><button type="submit" class="btn submitButton  mb-5 float-left d-block ">Go to Home Page</button></a>
+                      
+                </div>
+            </div>
+            <div class="row  "> 
+                <div class="col-8 col-sm-6  mb-sm-3">
+                    <div class="imgContainer ">
+                        <img id="productImg" src="" alt="No Image to show" style="max-height: 50vh;">
+                    </div>
+                    
+                </div>
+                <div class="col-8 col-sm-6 text-start">
+                     <h5>Product Name : <span id="productName"></span></h5>
+                     <h5>Product Code : <span id="productCode"></span></h5>
+                     <h5>Unit Price : <span id="unitPrice"></span></h5>
+                     <h5> Quantity :  <span id="Qty"></span></h5>
+                     <h5>Total Price: <span id="totalPrice"></span></h5>
+                     <h5>Created Date: <span id="CreatedDate"></span></h5>
+                </div>
+            </div>
+    
+           </div>
+        
+        
+    </div>
+
+
+    
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script  src="./js/showDetails.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- http://164.68.107.70:6060 -->
